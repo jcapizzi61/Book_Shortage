@@ -1,0 +1,181 @@
+@import url ('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css')
+
+*{box-sizing: border-box;
+}
+body,
+html {
+	font-size: 20px;
+	font-family:'Roboto', sans-serif;'
+	
+}
+
+body{ background-color: #d5f4e6;
+}
+
+/*************************************************************************
+Article content starts here
+*************************************************************************/
+div.Intro1 {
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 75px;
+	padding-right: 50px;
+
+}
+
+div.headline{
+	font-size: 1.5em;
+	display:block;
+	font-weight: normal;
+	text-align: center;
+	font-variant: normal;
+	font-style: bold;
+	margin-top: 30px;
+	padding-bottom: 0px;
+	line-height: 100%;
+}
+
+
+div.byline {
+	font-size: 0.25em
+	font-weight: normal;
+	text-align:  center;
+	font-variant: normal;
+	font-style: italic;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-top: auto;
+	line-height: 0.05em;
+
+}
+
+div.dateline {
+	font-size: 0.75em
+	font-weight: normal;
+	text-align:  center;
+	font-variant: normal;
+	font-style: italic;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+
+}
+
+div.container2
+	{
+	font-size: 1.25em;
+	 font-weight: bold;
+	 text-align: center;
+	 padding-bottom: 2px;
+	 padding-left: 75px;
+	 padding-right: 60px;
+	 line-height: 150%;
+ }
+
+ div.container3 
+ {
+ 	padding-left: 50px;
+ 	padding-right: 20px;
+ 	padding-top: 0px;
+ }
+div.divider
+{padding-right: auto;}
+
+div.Reasons {
+	display: inline-flex;
+	border: 3px dotted;
+	border-radius: 2%;
+	border-color: black;
+	border-collapse: separate;
+	border-spacing: 100px 50px;
+	margin-bottom: 10px; 
+	margin-right: 10px;
+	display: flex;
+	padding-top: 2px;
+	padding-left: auto;
+	padding-right: auto;
+	padding-bottom: 5px;
+	background-color: #f0ffff;
+	flex-basis: 500px;
+
+}
+
+p.heading {
+	font-weight: bold;
+	text-align: right;
+	margin-bottom: auto;
+	margin-top: 10px;
+	font-size: 2em;
+	position: center: 500px; 
+	padding-left: auto;
+	padding-top: 20px;
+
+}
+/****Styling for each icon's companion paragraph****/
+p.description
+	{
+	width: 1000px;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: auto;
+    position: auto;
+	flex-basis: 75%;
+	padding-right: auto;
+	padding-bottom: 19px;
+	padding-left: auto;
+	padding-top: auto;
+	padding-right: 15px;
+	}
+
+.intro{
+	font-size: 0.7em;
+	padding-top: 10px;
+	padding-left: 1000px;
+	padding-right: 100px;
+	width: 70%;
+    display: table-row;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+/******* Icon styling starts here *****/
+
+img.icons {
+	width: 50%
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    padding-top: 10px;
+    position: auto; left: 20px; 
+
+
+}
+img {
+	height: 275px;
+}
+div.Source {
+	padding-left: 100px;
+}
+
+/***********************************************************************************
+Tablet/desktop styles:
+************************************************************************************/
+@media(min-width: 681px) {
+      .flex {
+     
+        /* Flex box styles go on the flex box element */
+        display: flex;
+        justify-content: space-around;
+    }
+    .flex>div {
+        flex-basis: 30%;
+    }
+   /***********************************************************************************
+   DESKTOP-ONLY STYLES
+   **********************************************************************************/
+
+   @media(min-width: 780px) {
+
+   }
